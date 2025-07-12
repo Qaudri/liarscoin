@@ -1,0 +1,56 @@
+@import url(https://db.onlinewebfonts.com/c/0aeb47ea622a7dbe3a1854a192643bff?family=RM+Victoriana+Regular);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "RM Victoriana Regular", sans-serif;
+}
+
+header {
+  background: url('../assets/bg.jpg');
+  color: white;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ca {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+}
+
+h1 {
+  font-size: 6rem;
+  text-shadow: -8px 8px black;
+  margin-top: 100px;
+}
+
+.logo {
+  bottom: 0;
+  margin-top: -30px;
+}
