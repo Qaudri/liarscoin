@@ -32,6 +32,8 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .ca {
